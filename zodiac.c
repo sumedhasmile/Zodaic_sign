@@ -17,9 +17,9 @@ void main()
         switch(choice)
         {
 
-     case 1:printf("ENTER THE DATE\n");
+     case 1:printf("ENTER THE DATE OF YOUR BIRTH DAY\n");
             scanf("%d",&date);
-            printf("ENTER THE MONTH\n");
+            printf("ENTER THE MONTH OF YOUR BIRTH DAY	\n");
             scanf("%d",&mon);
             if(date>=20&&mon==1||date<=18&&mon==2)
              {
@@ -76,8 +76,8 @@ void main()
 
                     }
                        break;
-            case 2:printf("\n Enter your birthdate number ");
-                    printf(" \n in order dd-mm-yy\n");
+            case 2:printf("\n Enter your birth date number \n");
+                
                     scanf("%d",&n);
                     while (n>=1)
                     {
